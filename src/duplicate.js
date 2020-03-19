@@ -3,6 +3,6 @@
   e retorna `true` se existe algum elemento duplicado e `false` caso contrário
  */
 
-function duplicate(params) {}
+const duplicate = () => {}
 
 module.exports = duplicate;
