@@ -19,18 +19,15 @@ myLet = "Eu amo ES6!"
 const variables = () => {
   // Comente apenas as linhas abaixo
 
-  // myConst = "Não funciona!"
-  // changeConst();
+  myConst = "Não funciona!"
+  changeConst();
   changeVar();
-  // myVar = "Cuidado com meu escopo."
-  // let myLet = "Eu odeio ES6!"
+  myVar = "Cuidado com meu escopo."
+  let myLet = "Eu odeio ES6!"
   changeLet();
 
   // Comente apenas as linhas acima
   return [myConst, myVar, myLet]; 
 }
-
-console.log(typeof(variables()));
-console.log(typeof(["Eu não mudo...", "Tenho escopo global!", "Eu amo ES6!"]));
 
 module.exports = variables;
