@@ -18,7 +18,7 @@ const oneString = (myObject) => {
 fullString += `${Object.entries(myObject)[i][0].toUpperCase()}: ${Object.entries(myObject)[i][1]}
 `;
   }
-  return fullString
+  return fullString.slice(0, -1);
 }
 
 module.exports = oneString;
