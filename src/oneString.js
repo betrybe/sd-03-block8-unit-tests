@@ -1,23 +1,21 @@
 /*
-  Escreva uma função que recebe um objeto e retorna UMA string contendo suas informações formatadas.
+  Essa função recebe um objeto e retorna UMA string contendo suas informações formatadas.
   Exemplo de entrada:
   { estudante: "Mirian", idade: 25, hub: "BH", bebida: "café" }
 
   Exemplo de saída:
-    Estudante: Mirian
-    Idade: 25
-    Hub: BH
-    Bebida: Café
+    ESTUDANTE: Mirian
+    IDADE: 25
+    HUB: BH
+    BEBIDA: Café
 */
 
-const testObject = { estudante: "Mirian", idade: 25, hub: "BH", bebida: "café" };
-
-const oneString = (object) => {
-  for(let i=0; i < object.length ; i++) {
-    Object.entries(object)[i][0];
+const oneString = (myObject) => {
+  let fullString = '';
+  for(let i=0; i < Object.keys(myObject).length ; i++) {
+    fullString += Object.entries(myObject)[i][0].toUpperCase() + ': ' + Object.entries(myObject)[i][1] + '\n';
   }
+  return fullString
 }
-
-oneString(testObject);
 
 module.exports = oneString;
