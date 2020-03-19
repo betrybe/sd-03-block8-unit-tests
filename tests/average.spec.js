@@ -1,3 +1,4 @@
+const assert = require('assert');
 const average = require('../src/average');
 
 // A função deve receber uma quantidade qualquer de parâmetros
@@ -6,6 +7,6 @@ const average = require('../src/average');
 
 describe('#average', () => {
   it('expect average of 3, 4, 5 should be 4', () => {
-    expect(average(3, 4, 5).toBe(4));
+    assert.strictEqual(average(3, 4, 5), 4);
   });
 });
