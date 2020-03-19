@@ -10,10 +10,13 @@
     BEBIDA: Café
 */
 
+let testObject = { estudante: "Mirian", idade: 25, hub: "BH", bebida: "café" };
+
 const oneString = (myObject) => {
   let fullString = '';
   for(let i=0; i < Object.keys(myObject).length ; i++) {
-    fullString += Object.entries(myObject)[i][0].toUpperCase() + ': ' + Object.entries(myObject)[i][1] + '\n';
+fullString += `${Object.entries(myObject)[i][0].toUpperCase()}: ${Object.entries(myObject)[i][1]}
+`;
   }
   return fullString
 }
