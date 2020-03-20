@@ -7,7 +7,7 @@ describe('#vqv', () => {
     assert.strictEqual(typeof(vqv('Tunico', 30)), "string");
     assert.strictEqual(vqv("Tunico", 30), "Oi, meu nome é Tunico!\n" +
                                            "Tenho 30 anos,\n" +
-                                           "estudo na Trybe e mando muito em programação!\n" +
+                                           "trabalho na Trybe e mando muito em programação!\n" +
                                            "#VQV!");
     assert.strictEqual(vqv(), undefined);
   });
