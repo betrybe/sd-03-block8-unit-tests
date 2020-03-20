@@ -1,5 +1,5 @@
 /*
-  Comente as linhas dentro da função variables para que ela funcione e retorne o seguinte resultado:
+  Comente algumas das linhas dentro da função variables para que ela funcione e retorne o seguinte resultado:
   ["Eu não mudo...", "Tenho escopo global!", "Eu amo ES6!"]
 */
 
