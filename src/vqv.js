@@ -1,12 +1,16 @@
 /*
   Use template literals para escrever uma função que recebe seu nome e sua idade e retorna o parágrafo descrito abaixo.
-  Exemplo: 
-    vqv(Tunico, 30);
-      Oi, meu nome é Tunico!
+  Caso a função seja chamada sem nenhum parâmetro, o valor undefined deve ser retornado.
+  
+  Parâmetros:
+    - Uma string;
+    - Um número.
+  Comportamento: 
+    vqv(Tunico, 30) // Retorna:
+      'Oi, meu nome é Tunico!
       tenho 30 anos,
       trabalho na Trybe e mando muito em programação!
-      #VQV!
-  Se a função estiver sem parametros deve retornar undefined
+      #VQV!'
 */
 
 const vqv = (nome, idade) => {}
