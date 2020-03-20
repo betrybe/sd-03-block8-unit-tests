@@ -1,10 +1,9 @@
 /*
   A função average recebe um array (tamanho variável)
   e retorna a média dos valores recebidos
-  Caso a função receba algum valor não número, o valor undefined deve ser retornado
+  Caso a função receba algum valor não númerico, o valor undefined deve ser retornado
 */
 
-const average = () => {
-}
+const average = () => {}
 
 module.exports = average;
