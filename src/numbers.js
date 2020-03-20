@@ -1,8 +1,8 @@
 /*
-  A função numbers recebe uma lista de parâmetros (tamanho variável)
+  A função numbers recebe um array (tamanho variável)
   e retorna `true` se todos os parâmetros forem do tipo Number e `false` caso contrário
 */
 
-function numbers(params) {}
+const numbers = () => {}
 
 module.exports = numbers;
