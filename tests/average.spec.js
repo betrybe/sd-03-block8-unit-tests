@@ -7,6 +7,6 @@ const average = require('../src/average');
 
 describe('#average', () => {
   it('expect average of 3, 4, 5 should be 4', () => {
-    assert.strictEqual(average(3, 4, 5), 4);
+    assert.strictEqual(average([3, 4, 5]), 4);
   });
 });

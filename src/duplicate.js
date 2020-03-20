@@ -1,5 +1,5 @@
 /*
-  A função duplicate recebe uma lista de parâmetros (tamanho variável)
+  A função duplicate recebe um array (tamanho variável)
   e retorna `true` se existe algum elemento duplicado e `false` caso contrário
  */
 

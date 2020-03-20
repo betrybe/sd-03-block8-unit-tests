@@ -7,7 +7,7 @@ const duplicate = require('../src/duplicate');
 
 describe('#duplicate', () => {
   it('checks if any of the params are duplicated', () => {
-    assert.strictEqual(duplicate(1, 2, 3), false);
-    assert.strictEqual(duplicate(1, 2, 3, 2), true);
+    assert.strictEqual(duplicate([1, 2, 3]), false);
+    assert.strictEqual(duplicate([1, 2, 3, 2]), true);
   });
 });
