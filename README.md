@@ -27,33 +27,19 @@ Cada função possui um bloco de comentários em suas primeiras linhas explicand
 
 ## Requisitos do projeto
 
-### 1 - Implemente os casos de teste no arquivo `tests/last.spec.js`
+### 1 - Implemente a função do arquivo `src/average.js`
 
-### 2 - Implemente os casos de teste no arquivo `tests/greeting.spec.js`
+### 2 - Implemente a função do arquivo `src/numbers.js`
 
-### 3 - Implemente a função do arquivo `src/numbers.js`
+### 3 - Implemente a função do arquivo `src/duplicate.js`
 
-### 4 - Implemente os casos de teste no arquivo `tests/duplicate.spec.js`
+### 4 - Implemente os casos de teste no arquivo `tests/circle.spec.js`
 
-### 5 - Implemente a função do arquivo `src/duplicate.js`
+### 5 - Implemente a função do arquivo `src/objCalculator.js`
 
-### 6 - Implemente os casos de teste no arquivo `tests/average.spec.js`
+### 6 - Implemente a função do arquivo `src/variables.js`
 
-### 7 - Implemente a função do arquivo `src/average.js`
-
-### 8 - Implemente os casos de teste no arquivo `tests/caller.spec.js`
-
-### 9 - Implemente a função do arquivo `src/printBinary.js`
-
-### 10 - Implemente os casos de teste no arquivo `tests/printBinary.spec.js`
-
-### 11 - Implemente a função do arquivo `src/primeFactors.js`
-
-### 12 - Implemente os casos de teste no arquivo `tests/primeFactors.spec.js` utilizando a biblioteca NodeJS Assert
-
-### 13 - (BÔNUS) Implemente os casos de teste no arquivo `tests/rpnCalculator.spec.js`
-
-### 14 - (BÔNUS) Implemente a função do arquivo `src/rpnCalculator.js`
+### 7 - Implemente a função do arquivo `src/vqv.js`
 
 Reverse Polish Notation é uma notação usada para representar expressões matemáticas.
 
