@@ -29,9 +29,13 @@ Cada função possui um bloco de comentários em suas primeiras linhas explicand
 
 ### 1 - Implemente a função do arquivo `src/average.js`
 
-### 2 - Implemente a função do arquivo `src/numbers.js`
+### 2 - Implemente os casos de teste no arquivo `tests/numbers.js`
 
-### 3 - Implemente a função do arquivo `src/duplicate.js`
+### 3 - Implemente a função do arquivo `src/vqv.js`
+
+### 4 - Implemente os casos de teste no arquivo `tests/circle.spec.js`
+
+### 5 - Implemente a função do arquivo `src/createStudent.js`
 
 ### 4 - Implemente os casos de teste no arquivo `tests/circle.spec.js`
 
@@ -39,7 +43,6 @@ Cada função possui um bloco de comentários em suas primeiras linhas explicand
 
 ### 6 - Implemente a função do arquivo `src/variables.js`
 
-### 7 - Implemente a função do arquivo `src/vqv.js`
 
 Reverse Polish Notation é uma notação usada para representar expressões matemáticas.
 
