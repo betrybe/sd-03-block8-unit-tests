@@ -1,8 +1,22 @@
 /*
-  Desenvolva um  objeto calculator que realiza as operações básicas(add, sub, mult, div) para cada chave que possui. A calculadora sempre recebe dois números e retorna a solução da operação específicada.
-*/
+  Desenvolva um objeto calculator que possui quatro chaves:
+    - add;
+    - mult;
+    - div;
+    - sub.
+  Para cada uma delas atribua uma função que realiza a respectiva operação. A função deve receber dois inteiros e retornar um inteiro. Os resultados das divisões devem sempre ser arredondados para baixo.
 
-const calculator = {
-}
+  Faça as funções com arrow functions!
+  
+  Parâmetros:
+  - Um número inteiro;
+  - Um número inteiro;
+  
+  Comportamento: 
+  calculator.add(1, 1) // Retorno: 2;
+  calculator.div(3, 2) // Retorno: 1;
+  */
+
+const calculator = {}
 
 module.exports = calculator;
