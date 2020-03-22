@@ -37,9 +37,7 @@ Cada função possui um bloco de comentários em suas primeiras linhas explicand
 
 ### 5 - Implemente a função do arquivo `src/createStudent.js`
 
-### 4 - Implemente os casos de teste no arquivo `tests/circle.spec.js`
-
-### 5 - Implemente a função do arquivo `src/productDetails.js`
+### 5 - Implemente os casos de teste no arquivo `src/productDetails.js`
 
 ### 5 - Implemente a função do arquivo `src/objCalculator.js`
 
