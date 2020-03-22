@@ -37,11 +37,11 @@ Cada função possui um bloco de comentários em suas primeiras linhas explicand
 
 ### 5 - Implemente a função do arquivo `src/createStudent.js`
 
-### 5 - Implemente os casos de teste no arquivo `src/productDetails.js`
+### 6 - Implemente os casos de teste no arquivo `src/productDetails.js`
 
-### 5 - Implemente a função do arquivo `src/objCalculator.js`
+### 7 - Implemente a função do arquivo `src/objCalculator.js`
 
-### 6 - Implemente a função do arquivo `src/variables.js`
+### 8 - Implemente a função do arquivo `src/variables.js`
 
 
 Reverse Polish Notation é uma notação usada para representar expressões matemáticas.
