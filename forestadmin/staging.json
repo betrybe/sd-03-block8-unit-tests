@@ -1,0 +1,45 @@
+{
+  "project": {
+    "name": "betrybe/sd-03-block8-unit-tests",
+    "description": "betrybe/sd-03-block8-unit-tests",
+    "enabled": true,
+    "deadline": "2020-03-31 14:10:00",
+    "requirements": [{
+      "description": "Implemente a função do arquivo `src/average.js`",
+      "enabled": true,
+      "bonus": false
+    }, {
+      "description": "Implemente os casos de teste no arquivo `tests/numbers.js`",
+      "enabled": true,
+      "bonus": false
+    }, {
+      "description": "Implemente a função do arquivo `src/vqv.js`",
+      "enabled": true,
+      "bonus": false
+    }, {
+      "description": "Implemente os casos de teste no arquivo `tests/circle.spec.js`",
+      "enabled": true,
+      "bonus": false
+    }, {
+      "description": "Implemente a função do arquivo `src/createStudent.js`",
+      "enabled": true,
+      "bonus": false
+    }, {
+      "description": "Implemente os casos de teste no arquivo `src/productDetails.js`",
+      "enabled": true,
+      "bonus": false
+    }, {
+      "description": "Implemente a função do arquivo `src/objCalculator.js`",
+      "enabled": true,
+      "bonus": false
+    }, {
+      "description": "Implemente a função do arquivo `src/myCounter.js`",
+      "enabled": true,
+      "bonus": false
+    }, {
+      "description": "Implemente os casos de teste no arquivo `tests/restaurant.spec.js` e as funções do arquivo `src/restaurant.js`",
+      "enabled": true,
+      "bonus": false
+    }]
+  }
+}
