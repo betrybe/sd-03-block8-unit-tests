@@ -1,11 +1,11 @@
 /* eslint-disable max-len */
 
 /*
- Você é responsável por escrever o código do sistema de pedidos de um restaurante.
- Deve ser possível, através desse sistema, cadastrar um menu.
- Dado que um menu foi cadastrado,
- o sistema deve disponibilizar um objeto através do qual se consegue ler o menu cadastrado,
- fazer pedidos, verificar o que foi pedido e somar o valor da conta.
+  Você é responsável por escrever o código do sistema de pedidos de um restaurante. Deve ser possível, através desse sistema, cadastrar um menu. Dado que um menu foi cadastrado, o sistema deve disponibilizar um objeto através do qual se consegue:
+ - ler o menu cadastrado;
+ - fazer pedidos;
+ - verificar o que foi pedido;
+ - somar o valor da conta.
 
  A estrutura deste código e deste objeto já foi definida e você irá implementá-la.
  Abaixo você verá uma série de testes e passos que devem ser, NECESSÁRIAMENTE,
