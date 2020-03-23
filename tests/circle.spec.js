@@ -17,7 +17,7 @@ const circle = require('../src/circle');
 */
 
 describe('#circle', () => {
-  it('given a radius, should return an object with circles info' () => {
+  it('given a radius, should return an object with circles info', () => {
     
     // ESCREVA SEUS TESTES ABAIXO:
     // Teste se circle é um objeto.

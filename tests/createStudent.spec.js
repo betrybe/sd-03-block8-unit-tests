@@ -20,7 +20,7 @@ const createStudent = require('../src/createStudent');
 */
 
 describe('#createStudent', () => {
-  it('', () => {
+  it('returns the object as specified', () => {
     const estudante = createStudent('Leandrão, o Lobo Solitário');
     assert.strictEqual(typeof(estudante), 'object');
     assert.strictEqual(typeof(estudante.feedback), 'function');
