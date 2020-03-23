@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+
 const assert = require('assert');
 const average = require('../src/average');
 
@@ -5,7 +7,7 @@ const average = require('../src/average');
   A função average recebe um array (tamanho variável) e retorna a média dos valores recebidos.
   Caso a função receba algum valor não númerico ou um array vazio, o valor undefined deve ser retornado.
   Todos os resultados devem ser arredondados para valores inteiros. Ex: 4,6 vira 5; 1,3 vira 1.
-  
+
   Parâmetros:
     - Um array. Exemplos: [1, 2]; [1, 2, 3, 4, 5]; [1, 2, '3']; [];
   Comportamento:
@@ -23,12 +25,15 @@ describe('#average', () => {
     assert.strictEqual(average([0, 0, 0, 0, 0, 0, 0]), 0);
     assert.strictEqual(average([1, 2, '3']), undefined);
     assert.strictEqual(average([1, 2, 3]), 2);
-    assert.strictEqual(average([0, 0, 0, 0, 0, 0, 1]), 0); 
+    assert.strictEqual(average([0, 0, 0, 0, 0, 0, 1]), 0);
+
     assert.strictEqual(average([]), undefined);
-    assert.strictEqual(average([" "]), undefined);
-    assert.strictEqual(average(["um", "dois", "tres"]), undefined);
-    assert.strictEqual(average([47, 63, 122]), 77); 
-    assert.strictEqual(average([-11, 2, 5]), -1); 
-    assert.strictEqual(average([-11, -5, 2]), -5); 
+    assert.strictEqual(average([' ']), undefined);
+    assert.strictEqual(average(['um', 'dois', 'tres']), undefined);
+    assert.strictEqual(average([47, 63, 122]), 77);
+
+    assert.strictEqual(average([-11, 2, 5]), -1);
+
+    assert.strictEqual(average([-11, -5, 2]), -5);
   });
 });

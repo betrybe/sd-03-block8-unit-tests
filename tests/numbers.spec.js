@@ -1,3 +1,6 @@
+/* eslint-disable max-len */
+/* eslint-disable no-unused-vars */
+
 const assert = require('assert');
 const numbers = require('../src/numbers');
 
