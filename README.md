@@ -41,7 +41,10 @@ Cada função possui um bloco de comentários em suas primeiras linhas explicand
 
 ### 7 - Implemente a função do arquivo `src/objCalculator.js`
 
-### 8 - Implemente a função do arquivo `src/variables.js`
+### 8 - Implemente a função do arquivo `src/myCounter.js`
+
+### 9 - Implemente os casos de teste no arquivo `tests/restaurant.spec.js` e as funções do arquivo `src/restaurant.js`
+
 
 
 Reverse Polish Notation é uma notação usada para representar expressões matemáticas.

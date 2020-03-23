@@ -1,33 +1,65 @@
+// var myVar = "Cuidado com meu escopo."
+
+// const changeVar = () => { myVar = "Tenho escopo global!"}
+
+// myVar = "Estou mudando fora da função"
+
+// const variables = () => {
+//   // Comente apenas as linhas abaixo
+
+//   changeVar();
+//   // myVar = "Cuidado com meu escopo."
+
+//   // Comente apenas as linhas acima
+//   return [myVar]; 
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
   Comente algumas das linhas dentro da função variables para que ela funcione e retorne o seguinte resultado:
-  ["Eu não mudo...", "Tenho escopo global!", "Eu amo ES6!"]
+  ["A", "y", "2"]
 */
 
-const myConst = "Eu não mudo...";
-var myVar = "Cuidado com meu escopo."
-let myLet = "Eu odeio ES6!"
+const myConst = "A";
+var myVar = "x"
+let myLet = "1"
 
-const changeConst = () => { myConst = "Não funciona!" }
+const changeConst = () => { myConst = "B" }
 
-const changeVar = () => { myVar = "Tenho escopo global!"}
+const changeVar = () => { myVar = "y"}
 
-const changeLet = () => { myLet = "Eu amo ES6!" }
-
-myVar = "Tenho escopo global!"
-myLet = "Eu amo ES6!"
+const changeLet = () => { myLet = "2" }
 
 const variables = () => {
   // Comente apenas as linhas abaixo
 
-  myConst = "Não funciona!"
-  changeConst();
+  // myConst = "C"
+  // changeConst();
   changeVar();
-  myVar = "Cuidado com meu escopo."
-  let myLet = "Eu odeio ES6!"
+  // myVar = "z"
+  // let myLet = "3"
   changeLet();
 
   // Comente apenas as linhas acima
   return [myConst, myVar, myLet]; 
 }
+
+console.log(variables());
 
 module.exports = variables;
