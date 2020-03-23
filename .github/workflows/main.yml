@@ -12,7 +12,7 @@ jobs:
         id: test
         uses: betrybe/jest-evaluator-action@v1
         env:
-          TEST_REPOSITORY_BRANCH: 'feature/configure-tests'
+          TEST_REPOSITORY_BRANCH: feature/configure-tests
       - name: Store evaluation step
         uses: betrybe/store-evaluation-action@master
         with:
