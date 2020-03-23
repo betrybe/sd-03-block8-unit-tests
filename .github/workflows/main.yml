@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Jest evaluator step
         id: test
-        uses: betrybe/jest-evaluator-action@v1
+        uses: betrybe/jest-evaluator-action@feature/add-jest-configuration
         env:
           TEST_REPOSITORY_BRANCH: feature/configure-tests
       - name: Store evaluation step
