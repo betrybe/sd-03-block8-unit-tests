@@ -1,4 +1,4 @@
-# Boas vindas ao repositório do projeto de Testes Unitários em JavaScript!
+# Boas vindas ao repositório do projeto de ES6 e Testes Unitários!
 
 Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
 
@@ -6,7 +6,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 ## O que deverá ser desenvolvido
 
-Você implementará várias funções para atender aos requisitos propostos e testes unitários para garantir que sua implementação está correta.
+Você implementará várias funções para atender aos requisitos propostos e/ou testes unitários para garantir que as implementações das funções estão corretas.
 
 ---
 
@@ -22,6 +22,8 @@ O nome dos arquivos também seguem uma ordem definida. Basicamente, os arquivos 
 Existirá um arquivo `src/blabla.js` que conterá a implementação de uma função e um arquivo `tests/blabla.spec.js` com os testes unitários referentes à função presente no arquivo `src/blabla.js`.
 
 Cada função possui um bloco de comentários em suas primeiras linhas explicando qual é o trabalho que a função deve realizar.
+
+Você só deve alterar os arquivos indicados nos requisitos. **Os arquivos que não estão indicados nos requisitos não devem ser alterados, ou sua avaliação poderá ser comprometida.**
 
 ---
 
@@ -45,60 +47,6 @@ Cada função possui um bloco de comentários em suas primeiras linhas explicand
 
 ### 9 - Implemente os casos de teste no arquivo `tests/restaurant.spec.js` e as funções do arquivo `src/restaurant.js`
 
-
-
-Reverse Polish Notation é uma notação usada para representar expressões matemáticas.
-
-A notação mais comum é: `3 + 4`.
-Esta mesma expressão em _RPN_ (_Reverse Polish Notation_) é: `3 4 +`.
-Basicamente na _RPN_ os **operadores** seguem seus **operandos**.
-Isto faz com que essa notação não necessite de parênteses para representar precedencia em operações.
-
-Vamos aos exemplos para que fique claro:
-
-#### Expressão 1:
-`3 + 4` => `3 4 +`
-
-- `3 4 +` (realiza-se a soma `3 + 4` = `7`)
-- `7`
-
-#### Expressão 2:
-`3 - 4 + 5` => `3 4 - 5 +`
-
-- `3 4 - 5 +` (realiza-se a subtração `3 - 4` = `-1`)
-- `-1 5 +` (realiza-se a soma `-1 + 5` = `4`)
-- `4`
-
-#### Expressão 3:
-`3 - 4 * 5` => `3 4 5 * -`
-
-- `3 4 5 * -` (realiza-se a multiplicação `4 * 5` = `20`)
-- `3 20 -` (realiza-se a subtração `3 - 20` = `-17`)
-- `-17`
-
-#### Expressão 4:
-`(3 - 4) * 5` => `3 4 - 5 *`
-
-- `3 4 - 5 *` (realiza-se a subtração `3 - 4` = `-1`)
-- `-1 5 *` (realiza-se a mutiplicação `-1 * 5` = `-5`)
-- `-5`
-
-#### Expressão 5:
-`((15 / (7 - (1 + 1))) * 3) - (2 + (1 + 1))` => `15 7 1 1 + - / 3 * 2 1 1 + + -`
-
-- `15 7 1 1 + - / 3 * 2 1 1 + + -` (realiza-se a soma `1 + 1` = `2`)
-- `15 7 2 - / 3 * 2 1 1 + + -` (reliza-se a subtração `7 - 2` = `5`)
-- `15 5 / 3 * 2 1 1 + + -` (realiza-se a divisão `15 / 5` = `3`)
-- `3 3 * 2 1 1 + + -` (realiza-se a multiplicação `3 * 3` = `9`)
-- `9 2 1 1 + + -` (realiza-se a soma `1 + 1` = `2`)
-- `9 2 2 + -` (realiza-se a soma `2 + 2` = `4`)
-- `9 4 -` (realiza-se a subtração `9 - 4` = `5`)
-- `5`
-
-#### Referência
-
-[Reverse Polish Notation on Wikipedia](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
-
 ---
 
 ## Instruções para entregar seu projeto
@@ -106,9 +54,9 @@ Vamos aos exemplos para que fique claro:
 ### ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-02-week10-js-unit-tests.git`.
+  * `git clone git@github.com:tryber/sd-03-block8-js-unit-tests.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-02-week10-js-unit-tests`
+    * `cd sd-03-block8-js-unit-tests`
 
 2. Instale as dependências
   * `npm install`
@@ -122,14 +70,13 @@ Vamos aos exemplos para que fique claro:
     * Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
     * Exemplo: `git checkout -b joaozinho-js-unit-tests`
 
-4. Faça as alterações em, por exemplo, alguma das funções que precisam de implementação. Por exemplo, a `last.js` em `src/`:
+4. Faça as alterações em, por exemplo, alguma das funções que precisam de implementação. Por exemplo, a `average.js` em `src/`:
 ```jsx
-function last(list) {
+const average = () => {
   // add your implementation here
-  return list
 }
 
-module.exports = last
+module.exports = average
 ```
 
 5. Adicione as mudanças ao _stage_ do Git e faça um `commit`
@@ -148,13 +95,13 @@ module.exports = last
   * Usando o exemplo anterior: `git push -u origin joaozinho-js-unit-tests`
 
 7. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-02-week10-js-unit-tests/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-03-block8-js-unit-tests/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-02-week10-js-unit-tests/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-03-block8-js-unit-tests/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
@@ -183,7 +130,7 @@ Para **"entregar"** seu projeto, siga os passos a seguir:
 * Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
   * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
   * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-02`
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-03`
 
 Se ainda houver alguma dúvida sobre como entregar seu projeto, [aqui tem um video explicativo](https://vimeo.com/362189205).
 
