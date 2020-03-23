@@ -20,7 +20,7 @@
 
   meuRestaurante.order('coxinha') // Retorno: undefined
 
-  meuRestaurante.consumption() // Retorno: ['coxinha']
+  meuRestaurante.consumption // Retorno: ['coxinha']
 
   meuRestaurante.pay() // Retorno: 3.9
 
@@ -38,7 +38,7 @@
 
   - Uma chave `order` que tem uma função que, recebida uma string como parâmetro, adiciona essa string à lista salva em `consumption`.
 
-  - Uma chave `pay` que, quando chamada, soma o valor de todos os pedidos e dá o preço com acréscimo de 10%.
+  - Uma chave `pay` que, quando chamada, invoca uma função que soma o valor de todos os pedidos e dá o preço com acréscimo de 10%.
 
   IMPORTANTE: COMECE PELO TESTE 1 DO ARQUIVO `tests/restaurant.spec.js` E NÃO PELO PASSO 1 DESTE ARQUIVO!
 */

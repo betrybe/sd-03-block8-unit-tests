@@ -6,15 +6,16 @@ const createMenu = require('../src/restaurant');
 
 /*
   Você é responsável por escrever o código do sistema de pedidos de um restaurante. Deve ser possível, através desse sistema, cadastrar um menu. Dado que um menu foi cadastrado, o sistema deve disponibilizar um objeto através do qual se consegue:
- - ler o menu cadastrado;
- - fazer pedidos;
- - verificar o que foi pedido;
- - somar o valor da conta.
+  - ler o menu cadastrado;
+  - fazer pedidos;
+  - verificar o que foi pedido;
+  - somar o valor da conta.
 
-  A estrutura deste código e deste objeto já foi definida e você irá implementá-la. Abaixo você verá uma série de testes e passos que devem ser, NECESSARIAMENTE, feitos em ordem para o bom desenvolvimento do sistema. Eles guiarão você pelo desenvolvimento.
+  A estrutura deste código e deste objeto já foi definida e você irá implementá-la.
+  Abaixo você verá uma série de testes e passos que devem ser, NECESSARIAMENTE, feitos em ordem para o bom desenvolvimento do sistema. Eles guiarão você pelo desenvolvimento.
 
   Parâmetros:
-    - Um objeto. Exemplos: { food: {'coxinha': 3.9, 'sopa': 9.9}, drink: {'agua': 3.9, 'cerveja': 6.9} }.
+  - Um objeto. Exemplos: { food: {'coxinha': 3.9, 'sopa': 9.9}, drink: {'agua': 3.9, 'cerveja': 6.9} }.
   Comportamento:
 
   const meuRestaurante = createMenu({ food: {'coxinha': 3.9, 'sopa': 9.9}, drink: {'agua': 3.9, 'cerveja': 6.9} }).
@@ -23,7 +24,7 @@ const createMenu = require('../src/restaurant');
 
   meuRestaurante.order('coxinha') // Retorno: undefined
 
-  meuRestaurante.consumption() // Retorno: ['coxinha']
+  meuRestaurante.consumption // Retorno: ['coxinha']
 
   meuRestaurante.pay() // Retorno: 3.9
 
@@ -41,7 +42,7 @@ const createMenu = require('../src/restaurant');
 
   - Uma chave `order` que tem uma função que, recebida uma string como parâmetro, adiciona essa string à lista salva em `consumption`.
 
-  - Uma chave `pay` que, quando chamada, soma o valor de todos os pedidos e dá o preço com acréscimo de 10%.
+  - Uma chave `pay` que, quando chamada, invoca uma função que soma o valor de todos os pedidos e dá o preço com acréscimo de 10%.
 
   IMPORTANTE: FAÇA OS TESTES E PASSOS DE ACORDO COM A ORDEM INDICADA!
 
@@ -105,12 +106,12 @@ describe('#createMenu', () => {
     // ```
     // Agora faça o TESTE 8 deste arquivo.
     // --------------------------------------------------------------------------------------
-    // TESTE 8: Verifique que, ao chamar `objetoRetornado.pay`, retorna-se a soma dos preços de tudo que foi pedido, conforme registrado em `objetoRetornado.consumption`
+    // TESTE 8: Verifique que, ao chamar `objetoRetornado.pay()`, retorna-se a soma dos preços de tudo que foi pedido, conforme registrado em `objetoRetornado.consumption`
     // ```
     // objetoRetornado.order('coxinha');
     // objetoRetornado.order('agua');
     // objetoRetornado.order('coxinha');
-    // objetoRetornado.pay // Retorno: somaDosPreçosDosPedidos
+    // objetoRetornado.pay() // Retorno: somaDosPreçosDosPedidos
     // ```
     // Agora faça o PASSO 4 no arquivo `src/restaurant.js`.
   });
