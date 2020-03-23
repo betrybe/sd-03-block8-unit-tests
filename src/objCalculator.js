@@ -9,11 +9,11 @@
   Os resultados das divisões devem sempre ser arredondados para baixo.
 
   Faça as funções com arrow functions!
-  
+
   Parâmetros:
   - Um número inteiro;
   - Um número inteiro;
-  
+
   Comportamento:
   calculator.add(1, 1) // Retorno: 2;
   calculator.div(3, 2) // Retorno: 1;

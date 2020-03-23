@@ -24,8 +24,8 @@
   ]
 */
 
-  const productDetails = (firstProduct, secondProduct) => {
-    return [
+  const productDetails = (firstProduct, secondProduct) =>
+    [
       {
         name: firstProduct,
         details: {
@@ -39,7 +39,7 @@
         },
       },
     ];
-  };
+
 
   module.exports = productDetails;
   
