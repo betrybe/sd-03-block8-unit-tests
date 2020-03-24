@@ -74,4 +74,3 @@
 const createMenu = () => {};
 
 module.exports = createMenu;
-module.exports = createMenu;
